@@ -1,0 +1,7 @@
+name: Uranium Shell
+type: material
+description: Ammo used for the railgun.
+radioactivity: 0.7
+hardness: 1
+cost: 1
+color: ffffff

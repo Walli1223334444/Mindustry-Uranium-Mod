@@ -1,0 +1,36 @@
+type: NuclearReactor
+name: Nuclear Reactor
+description: Creates a lot of electricity using Uranium
+size: 3
+itemCapacity: 20
+liquidCapacity: 5
+hasItems: true
+hasLiquid: true
+itemDuration: 60
+powerProduction: 166
+smokeThreshold: 0.5
+flashThreshhold: 1
+explosionRadius: 100
+explsionDamage: 10000
+generateEffect: generatespark
+coolantPower: 0.2
+consumes: {
+	items: {
+		items: [
+		uranium/3
+		]
+	}
+  liquid:{
+		liquid: cryofluid
+		amount: 0.3
+   }
+}
+requirements: [
+  metaglass/80
+  silicon/60
+  surge-alloy/400
+  titanium/200
+  plastanium/300
+  uranium/50
+]
+category: power

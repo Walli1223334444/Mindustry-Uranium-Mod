@@ -1,0 +1,27 @@
+name: Shell Factory
+type: GenericCrafter
+Description: A factory that uses Uranium to produce ammunition that can be fired by the railgun.
+size: 2
+hasLiquid: true
+hasItems: true
+hasPower: true
+updateEffect: smeltsmoke
+consumes:{
+	power: 2
+	items:{
+		items:[
+			uranium/1
+			titanium/10
+			blast-compound/1
+		]
+	}
+}
+requirements:[
+	plastanium/180
+	surge-alloy/150
+	silicon/300
+	lead/400
+	uranium/75
+]
+category: crafting
+outputItem: uraniumshell/1

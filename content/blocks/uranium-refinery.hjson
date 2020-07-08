@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Uranium Refinery
+description: Produces Uranium by combining Thorium and Plastanium. Uranium can be used in a Nuclear Reactor.
+liquidCapacity: 1
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 40
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+	  thorium/3
+	  plastanium/5
+	  metaglass/5
+	  silicon/10
+    ]
+  }
+}
+requirements: [
+  lead/200
+  thorium/300
+  silicon/275
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: uranium/1

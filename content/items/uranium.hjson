@@ -1,0 +1,7 @@
+type: material
+name: Uranium
+description: A hard resource that can be used to produce power.
+hardness: 5
+radioactivity: 0.6
+cost: 3
+color: ffffff

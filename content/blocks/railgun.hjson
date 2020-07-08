@@ -1,0 +1,44 @@
+name: Railgun
+type: ArtilleryTurret
+description: A powerful railgun that can be used to blow your enemies away.
+size: 4
+hasPower: true
+hasLiquid: true
+targetGround: true
+targetAir: true
+trailEffect: artilleryTrail
+ammoUseEffect: lancerLaserShootSmoke
+ammoPerShot: 1
+ammoEjectback: 1
+shots: 1
+range: 500
+reload: 100
+hitSound: explosion
+ammo:{
+	uraniumshell:{
+		speed: 6.0
+		damage: 1500
+		reloadMultiplier: 1
+		ammoMultiplier: 1
+		explodeRange: 50
+		backColor: ac7349
+		frontColor: dcd16b
+		splashDamage: 900
+		splashDamageRadius: 80
+	}
+}
+consumes:{
+power: 64
+	items: {
+		items:[
+			uraniumshell/1
+		]
+	}
+}
+requirements:[
+	plastanium/300
+	surge-alloy/400
+	silicon/450
+	lead/700
+]
+category: turret
