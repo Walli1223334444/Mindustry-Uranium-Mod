@@ -17,7 +17,7 @@ coolantPower: 0.2
 consumes: {
 	items: {
 		items: [
-		uranium/3
+		uranium/2
 		]
 	}
   liquid:{

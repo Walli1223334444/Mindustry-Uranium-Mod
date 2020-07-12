@@ -17,13 +17,13 @@ hitSound: explosion
 ammo:{
 	uraniumshell:{
 		speed: 6.0
-		damage: 1500
+		damage: 3500
 		reloadMultiplier: 1
 		ammoMultiplier: 1
-		explodeRange: 50
+		explodeRange: 100
 		backColor: ac7349
 		frontColor: dcd16b
-		splashDamage: 900
+		splashDamage: 1500
 		splashDamageRadius: 80
 	}
 }
